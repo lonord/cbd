@@ -1,2 +1,2 @@
-# cwd
-Get current working directory in go
+# cbd
+Get current binary directory in go

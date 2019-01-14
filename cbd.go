@@ -8,8 +8,8 @@ import (
 	"strings"
 )
 
-// GetWorkingDir is used to get current working directory
-func GetWorkingDir() (string, error) {
+// GetBinaryDir is used to get current binary directory
+func GetBinaryDir() (string, error) {
 	file, err := exec.LookPath(os.Args[0])
 	if err != nil {
 		return "", err
